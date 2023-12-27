@@ -18,7 +18,7 @@ const FriendsList = ({ friends }) => {
   );
 };
 FriendsList.propTypes = {
-  friends: PropTypes.arrayOf(
+  friends: PropTypes.arrayOf( 
     PropTypes.shape({
       name: PropTypes.string.isRequired,
       avatar: PropTypes.string.isRequired,
